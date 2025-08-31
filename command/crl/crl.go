@@ -23,6 +23,7 @@ $ step crl inspect http://ca.example.com/crls/exampleca.crl
 '''`,
 		Subcommands: cli.Commands{
 			inspectCommand(),
+            createCommand(),
 		},
 	}
 
